@@ -9,4 +9,4 @@ ADD ./docker_nginx.conf /etc/nginx/sites-available/default.conf
 
 ADD docker_entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["/entrypoint.sh"]s
+ENTRYPOINT ["/entrypoint.sh"]
